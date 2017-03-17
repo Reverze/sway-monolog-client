@@ -1,0 +1,19 @@
+{
+    "name": "rev/sway-monolog-client",
+    "description": "Client for monolog. Prepared for swayframework",
+    "type": "sf-package",
+    "authors": [
+        {
+            "name": "Reverze",
+            "email": "hawkmedia24@gmail.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sway\\MonologClient\\": "src/"
+        }
+    }
+}
