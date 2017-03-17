@@ -1,0 +1,23 @@
+{
+    "name": "rev/sway-monolog-client",
+    "description": "Monolog client bundle for swayframework",
+    "type": "sf-package",
+    "authors": [
+        {
+            "name": "Reverze",
+            "email": "hawkmedia24@gmail.com"
+        }
+    ],
+    "support": {
+        "email": "hawkmedia24@gmail.com"
+    },
+    "license": "GPL-3.0",
+    "require": {
+        "monolog/monolog": "^1.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sway\\MonologClient\\": "src/"
+        }
+    }
+}
